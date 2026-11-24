@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>catch the circle!</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>brick breaker!</h1>
+    <p>move the paddle, bounce the ball, and smash every brick.</p>
+    <div class="scoreboard">
+      <div>Bricks: <span id="timer">0</span></div>
+    </div>
+    <canvas id="gameCanvas" width="500" height="400"></canvas>
+    <button id="startButton">start game</button>
+    <div class="instructions">
+      <p>every brick you break adds points. miss the ball and the game ends.</p>
+    </div>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
